@@ -1,0 +1,15 @@
+data:
+  excel_path: "data/catalogo_productos.xlsx"
+  sheet_name: "Sheet1"
+  id_column: "referencia"
+  text_columns: ["titulo", "descripcion", "caracteristicas"]
+  metadata_columns: ["precio", "categoria"]
+
+model:
+  embedding_model: "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+  similarity_metric: "cosine"
+
+index:
+  bm25_threshold: 0.1
+  top_k_initial: 100
+  top_k_final: 10
