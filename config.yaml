@@ -1,8 +1,8 @@
 data:
   excel_path: "data/catalogo_productos.xlsx"
   sheet_name: "Sheet1"
-  id_column: "referencia"
-  text_columns: ["titulo", "descripcion", "caracteristicas"]
+  id_column: "reference"
+  text_columns: ['reference', 'title', 'description', 'features', 'category', 'price']
   metadata_columns: ["precio", "categoria"]
 
 model:
