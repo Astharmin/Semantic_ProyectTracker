@@ -5,6 +5,7 @@
 ![SentenceTransformers](https://img.shields.io/badge/Embeddings-SentenceTransformers-FF6B6B)
 ![Streamlit](https://img.shields.io/badge/UI-Streamlit-FF4B4B?logo=streamlit)
 ![SQLite](https://img.shields.io/badge/Index-SQLite_FTS5-003B57?logo=sqlite)
+![License](https://img.shields.io/badge/Licencia-MIT-green)
 
 > *"Sistema híbrido de búsqueda semántica que entiende el lenguaje natural para encontrar productos relevantes"*
 
